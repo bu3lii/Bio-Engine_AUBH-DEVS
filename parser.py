@@ -27,5 +27,4 @@ def load_csv(csv_path="data/SB_publication_PMC.csv"):
     print(f"Loaded {len(df)} publications from {csv_path}")
     
 if __name__ == "__main__":
-    print("🚀 parser.py is running")
     load_csv("data/SB_publication_PMC.csv")
